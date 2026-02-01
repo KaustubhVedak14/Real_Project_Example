@@ -1,8 +1,12 @@
-1  int main() {
-2      printf("Hello\n");
-3      int a = 5;
-4      int b = 10;
-5      int sum = a + b;
-6      printf("%d\n", sum);
-7      return 0;
-8  }
+int main() {
+    printf("Hello\n");
+    int a = 5;
+    int b = 10;
+    int sum = a + b;
+
+    // Person A's change + your existing code
+    printf("Person A added this line\n");
+
+    printf("%d\n", sum);
+    return 0;
+}
